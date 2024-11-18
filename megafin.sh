@@ -25,7 +25,7 @@ index=1  # To handle token iteration (if multiple tokens are needed)
 
 while true; do
     # Fetch the response from the API
-    response=$(curl -s -X GET "$URL" -H "Authorization: Bearer $TOKEN")
+    response=$(curl -s -X GET "$URL" -H "Authorization: Bearer $TOKEN" -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36")
 
     # Validate the response
     if echo "$response" | jq -e '.result.balance.MGF' > /dev/null 2>&1 &&
@@ -45,8 +45,7 @@ while true; do
     # Wait for all background processes to finish before continuing
     wait
 
-    # Generate a random sleep time between 6 and 10 seconds
-    sleep_time=$((RANDOM % 5 + 6))
-    echo "Sleeping for $sleep_time seconds..."
+    # Generate a random sleep time between 10 and 30 seconds
+    sleep_time=$((RANDOM % 21 + 10))
     sleep $sleep_time
 done
