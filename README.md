@@ -6,7 +6,7 @@ This repository contains a script for interacting with the Megafin platform usin
 
 Follow the steps below to set up and run the bot:
 
-1. Go to [Megafin](https://app.megafin.xyz/).
+1. Go to [https://app.megafin.xyz/](https://app.megafin.xyz/upgrade?ref=3e5a7934).
 2. Click `Inspect` (F12) to open the developer tools.
 3. Navigate to Network > Fetch/XHR.
 4. Connect your wallet.
