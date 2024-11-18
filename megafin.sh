@@ -45,6 +45,8 @@ while true; do
     # Wait for all background processes to finish before continuing
     wait
 
-    # Wait before the next iteration (6 seconds)
-    sleep 6
+    # Generate a random sleep time between 6 and 10 seconds
+    sleep_time=$((RANDOM % 5 + 6))
+    echo "Sleeping for $sleep_time seconds..."
+    sleep $sleep_time
 done
