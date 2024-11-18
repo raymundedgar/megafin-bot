@@ -13,14 +13,19 @@ Follow the steps below to set up and run the bot:
 5. Click the last `profile` you see in the network tab.
 6. Under `Request Headers`, look for `Authorization:` and copy the text after `Bearer`.
 7. Clone the repository:
-	`git clone https://github.com/raymundedgar/megafin-bot`
+    ```bash
+	git clone https://github.com/raymundedgar/megafin-bot
 8. Navigate to the project directory:
-	`cd megafin-bot`
+    ```bash
+	cd megafin-bot
 9. Edit the bearer.txt file:
-`nano bearer.txt`
+    ```bash
+    nano bearer.txt
 Paste the bearer token you copied in Step 6 into the bearer.txt file.
 10. Save the file by pressing Ctrl + S then Ctrl + X.
 11. Change the permission to make the script executable:
-`chmod +x megafin.sh`
+    ```bash
+    chmod +x megafin.sh
 12. Run the script:
-`./megafin.sh`
+    ```bash
+    ./megafin.sh
