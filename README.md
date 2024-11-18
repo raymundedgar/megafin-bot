@@ -18,16 +18,13 @@ Follow the steps below to set up and run the bot:
 8. Navigate to the project directory:
     ```bash
 	cd megafin-bot
-9. Edit the bearer.txt file:
+9. Edit the bearer.txt file and paste the bearer token you copied in Step 6 into the bearer.txt file.
     ```bash
     nano bearer.txt
-Paste the bearer token you copied in Step 6 into the bearer.txt file.
 10. Save the file by pressing Ctrl + S then Ctrl + X.
 11. Change the permission to make the script executable:
     ```bash
     chmod +x megafin.sh
-    ```
 12. Run the script:
     ```bash
     ./megafin.sh
-    ```
