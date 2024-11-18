@@ -26,6 +26,8 @@ Paste the bearer token you copied in Step 6 into the bearer.txt file.
 11. Change the permission to make the script executable:
     ```bash
     chmod +x megafin.sh
+    ```
 12. Run the script:
     ```bash
     ./megafin.sh
+    ```
