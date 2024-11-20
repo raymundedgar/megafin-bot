@@ -45,7 +45,7 @@ while true; do
     # Wait for all background processes to finish before continuing
     wait
 
-    # Generate a random sleep time between 10 and 30 seconds
-    sleep_time=$((RANDOM % 21 + 10))
+    # Generate a random sleep time between 90 and 120 seconds
+    sleep_time=$((RANDOM % 31 + 90))
     sleep $sleep_time
 done
